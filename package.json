@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node dist",
-    "build": "prisma migrate  dev  --name init && tsc",
+    "build": "tsc",
     "watch": "tsc --watch",
     "dev": "nodemon dist"
   },
