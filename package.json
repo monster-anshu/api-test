@@ -19,7 +19,7 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "dev": "nodemon dist",
-    "migrate": "prisma migrate dev"
+    "migrate": "prisma migrate  dev  --name init"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
