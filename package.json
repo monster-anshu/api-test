@@ -16,10 +16,9 @@
   },
   "scripts": {
     "start": "node dist",
-    "build": "tsc",
+    "build": "prisma migrate  dev  --name init && tsc",
     "watch": "tsc --watch",
-    "dev": "nodemon dist",
-    "migrate": "prisma migrate  dev  --name init"
+    "dev": "nodemon dist"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
