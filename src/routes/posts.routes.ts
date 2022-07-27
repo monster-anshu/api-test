@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import auth_user from '../middlewares/auth_user.middleware';
 
 export const router = Router();
 import {
